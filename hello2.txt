@@ -1,1 +1,2 @@
 "Hello git" 
+my second line in hello2.xt
