@@ -1,5 +1,4 @@
 name: Java Lab Workflow 
-
 on:
  workflow_dispatch: #Allows manul trigger from GitHub UI 
 
