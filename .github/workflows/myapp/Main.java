@@ -1,21 +1,6 @@
-name: Java Lab Workflow 
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello I am in main funcation of java")
+    }
 
-on:
- workflow_dispatch: #Allows manul trigger from GitHub UI 
-
-jobs:
- build-and-run:
-  runs-on: ubuntu-latest
-  steps:
-   - name: Checkout repository
-     uses: actions/checkot#v3
-
-  - name: Compile Java code
-    run: | 
-      cd myapp
-      javac *.java
-  - name: Run Java program 
-    run: |
-     cd myapp
-     java Main
-     
+}
